@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:; 
+    color: #e0e0e0; 
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    background-image:linear-gradient(grey,whitesmoke,black); 
+    border-bottom: 1px solid #333;
+}
+#search-bar {
+    padding: 0.5em;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color:white;
+    color: #e0e0e0;
+}
+#search-button {
+    padding: 0.5em 1em;
+    margin-left: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #6200ea; 
+    color: #fff;
+    cursor: pointer;
+}
+#search-button:hover {
+    background-color: #3700b3; 
+}
+#phone-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    padding: 1em;
+}
+.phone-box {
+    background-color: #1e1e1e; 
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.phone-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+.phone-box h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+.phone-box button {
+    background-color: #6200ea; /* Purple color */
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.phone-box button:hover {
+    background-color: #3700b3; /* Darker purple on hover */
+}
+
+}
